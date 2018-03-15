@@ -8,5 +8,5 @@ Details of the cleaning process can be found in the CodeBook.md markdown.
 
 The R script to run to replicate the cleaning process is run_analysis.R.
 
-The clean date can be found in the file 'UCI HAR Clean Data.csv'.
+The clean date can be found in the file 'UCI HAR Clean Data.txt'.
 

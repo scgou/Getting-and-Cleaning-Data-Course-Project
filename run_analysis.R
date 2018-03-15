@@ -57,7 +57,7 @@ colnames(df) <- gsub(x = colnames(df), pattern = "\\)", replacement = "")
 # Group data by Subject and Activity and average each variable into new Data Frame
 df2 <- df %>% group_by(Subject, Activity) %>% summarise_all(funs(mean))
 
-# Finally write the summary data as a csv file
-write.csv(df2, file = "./data/UCI HAR Clean Data.csv")
+# Finally write the summary data to a file
+write.table(df2, file = "./data/UCI HAR Clean Data.txt", row.names = FALSE)
 
 

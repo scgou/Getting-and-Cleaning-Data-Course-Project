@@ -25,7 +25,7 @@ The following changes have been made to the original raw data to tidy it:
 
 7. The rows have been grouped by Subject and then by Activity and the mean for each group of calculated.
 
-8. This updated tidy data is then stored in the file "UCI HAR Clean Data.csv". 
+8. This updated tidy data is then stored in the file "UCI HAR Clean Data.txt". 
 
 
 
