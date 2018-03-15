@@ -10,18 +10,18 @@ The following changes have been made to the original raw data to tidy it:
 2. The train and test data have then been combined into a single dataset.
 
 3. The labels for the activities (numerical codes) have been updated to include the name of the actual activity i.e.
-..* WALKING
-..* WALKING_UPSTAIRS
-..* WALKING_DOWNSTAIRS
-..* SITTING
-..* STANDING
-..* LAYING
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
 
 4. The column headers have been updated with the 561 variable names.
 
 5. Columns have been removed for variables which did not relate to Mean or Standard Deviation data.
 
-6. The columns names have been updated so they are measure easy to read in English.
+6. The columns names have been updated so they are easier to read in English.
 
 7. The rows have been grouped by Subject and then by Activity and the mean for each group of calculated.
 
